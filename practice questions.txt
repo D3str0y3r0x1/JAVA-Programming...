@@ -1,0 +1,194 @@
+1) input 3 numbers and find the average of those numbers?
+#sol:
+	import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[])
+    {
+        Scanner vs = new Scanner(System.in);
+        System.out.print("a:");
+        int a = vs.nextInt();
+        System.out.print("b:");
+        int b  = vs.nextInt();
+        System.out.print("c:");
+        int c = vs.nextInt();
+        double sum = a+b+c;
+        double avg = sum/3;
+        System.out.print("avg:");
+        System.out.println(avg);
+    }
+    
+}
+
+
+
+2) input the sides then find the area os squares?
+#sol:
+	import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[])
+    {
+        Scanner vs = new Scanner(System.in);
+        System.out.print("side1:");
+        double side1 = vs.nextDouble();
+        System.out.print("side2:");
+        double side2 = vs.nextDouble();
+        double area = side1*side2;
+        System.out.print("area of square:");
+        System.out.println(area);
+    }
+    
+}
+
+
+3) Enter the cost of 3 items from the user (using float data type) - a pencil,pen,eraiser. You have to output the total cost of the items back to the user as their bill.
+(Add on : You can also try adding 18% gst tax to the items in the bill as an advanced problem)
+#sol:
+	import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[])
+    {
+        Scanner vs = new Scanner(System.in);
+        System.out.print("pencil:");
+        int pencil = vs.nextInt();
+        //double gst = pencil*0.18;
+        System.out.print("pen:");
+        int pen = vs.nextInt();
+        //double gst2 = pen*0.18;
+        System.out.print("eraiser:");
+        int eraiser = vs.nextInt();
+        //double gst3 = eraiser*0.18;
+       // double total = gst+gst2+gst3;
+       double gst = pen+pencil+eraiser*0.18;
+       double total = pen+pencil+eraiser+gst;
+       System.out.print("the total gst is:");
+       System.out.println(gst);
+       System.out.print("bill:");
+       System.out.println(total);
+
+        
+    }
+    
+}
+
+
+4) Will the following statement give any error in Java?
+		int $ = 24;
+#sol: Nooo....
+			import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[])
+    {
+       int $ = 40;
+       System.out.println($);
+
+        
+    }
+    
+}
+
+5) Write a Java program to get a number from the user and print whether it is positive or negative
+#sol:
+
+	import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[])
+    {
+        Scanner vs = new Scanner(System.in);
+        System.out.print("Enter your number :");
+        int num = vs.nextInt();
+        if(num>=0){
+            System.out.println("It a the positive integer");
+        }
+        else{
+            System.out.println("It is a negative integer");
+        }
+
+        
+    }
+    
+}
+
+
+6) Finish the following code so that it prints You have a fever if your temperature is above 100 and otherwise You don't have fear.
+#sol:
+
+	import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[])
+    {
+        Scanner vs = new Scanner(System.in);
+        System.out.print("Wt temperature you got:");
+        double temp = vs.nextDouble();
+        if(temp>=100){
+            System.out.println("you have fever. Please take care your self");
+        }
+        else{
+            System.out.println("You don't have fever. Have a nice day");
+        }
+        
+    }
+    
+}
+
+
+7) Write a Java program to input week number(1-7) and print day of week name using switch case.
+#sol:
+
+	import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[])
+    {
+        Scanner vs = new Scanner(System.in);
+        System.out.print("Select a number form 1-7 :");
+        int Week = vs.nextInt();
+        switch(Week){
+            case 1 : System.out.println("Sunday");
+            break;
+            case 2 : System.out.println("Monday");
+            break;
+            case 3 : System.out.println("Tuesday");
+            break;
+            case 4 : System.out.println("Wednesday");
+            break;
+            case 5 : System.out.println("Thursday");
+            break;
+            case 6 : System.out.println("Friday");
+            break;
+            case 7 : System.out.println("Saturday");
+            break;
+            default : System.out.println("Please enter a valid number");
+        }
+    }
+    
+}
+
+8) What will be the value of X&Y in the following program.
+#sol:
+
+	import java.util.Scanner;
+
+public class Pq {
+    public static void main(String args[]){
+        int a = 63, b = 36;
+        boolean x = (a < b) ? true : false;
+        int y = (a > b) ? a:b;
+        System.out.println(x);
+        System.out.println(y);
+    }
+    
+  }
+Output: #False
+	  #63 
+
+
+	
+
+
+

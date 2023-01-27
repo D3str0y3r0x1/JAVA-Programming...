@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Char",
+            "request": "launch",
+            "mainClass": "Char",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nestedloop",
+            "request": "launch",
+            "mainClass": "Nestedloop",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Do",
+            "request": "launch",
+            "mainClass": "Do",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch For",
+            "request": "launch",
+            "mainClass": "For",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch While",
+            "request": "launch",
+            "mainClass": "While",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Loop",
+            "request": "launch",
+            "mainClass": "Loop",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Music",
+            "request": "launch",
+            "mainClass": "Music",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add",
+            "request": "launch",
+            "mainClass": "Add",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Caste",
+            "request": "launch",
+            "mainClass": "Caste",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Conditional",
+            "request": "launch",
+            "mainClass": "Conditional",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hyeee",
+            "request": "launch",
+            "mainClass": "Hyeee",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch In",
+            "request": "launch",
+            "mainClass": "In",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfaceMain",
+            "request": "launch",
+            "mainClass": "InterfaceMain",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Love",
+            "request": "launch",
+            "mainClass": "Love",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multi",
+            "request": "launch",
+            "mainClass": "Multi",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch MusicPlayer",
+            "request": "launch",
+            "mainClass": "MusicPlayer",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operate",
+            "request": "launch",
+            "mainClass": "Operate",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Overload",
+            "request": "launch",
+            "mainClass": "Overload",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pq",
+            "request": "launch",
+            "mainClass": "Pq",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java_a0fda1af"
+        },
+        {
+            "type": "java",
+            "name": "Launch convo",
+            "request": "launch",
+            "mainClass": "convo",
+            "projectName": "java_a0fda1af"
+        }
+    ]
+}
